@@ -1,0 +1,362 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>tailorstore</title>
+    <link rel="stylesheet" href="../bootstrap4/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"></link>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato" />
+
+    <style>
+        .bt{
+            margin:100px 250px 100px;
+            padding:15px;
+            color: white;
+            background-color: black;
+            border:2px solid white;
+
+        }
+        .bt2{
+            margin:100px 580px 100px;
+            color: white;
+            background-color: black;
+            font-weight: 400;
+            border: none;
+
+        }
+        .bt:hover{
+            background-color: whitesmoke;
+            color:black;
+            transition-duration: 1.4s;
+
+        }
+        .heads{
+            text-align: center;
+        color: white;
+        font-family:monospace, monospace;"
+        }
+.bt1{
+    padding:8px 28px;
+    border:2px solid white;
+    background-color:#25293a ;
+    color: whitesmoke;
+
+
+}
+        .bt1:hover{
+            background: whitesmoke;
+            color:#25293a ;
+            transition-duration: 1.4s;
+        }
+        #list{
+            display: inline;
+            padding: 10px 10px;
+            font-weight: 300;
+
+        }
+        #list:hover{
+            border-bottom: 2px solid grey;
+            transition-duration: 0.4s;
+        }
+        .bord:hover
+        {
+            transition-duration: 0.4s;
+
+
+            position: relative;
+            float: none;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.29);
+
+        }
+
+         #products {
+             display: inline-block;
+             width:100%;
+             height: 600px;
+
+         }
+        img{
+            vertical-align: top;
+        }
+.checked{
+   color: #25293a
+}
+.unchecked{
+    color: lightgrey;
+}
+        li{
+            padding: 3px;;
+        }
+        .circle {
+
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            text-align: center;
+            border: 1px solid white;
+        }
+        .navbar1{
+         overflow: hidden;
+            position: fixed;
+             width: 1319px;
+            top:0;
+            z-index: 10;
+
+        }
+
+
+    </style>
+</head>
+
+<body>
+<div class="container-fluid">
+
+
+<!--
+header starts
+-->
+<div  class="navbar1" style="height: 100px;background-color:#25293a;">
+
+    <h1 style="color:whitesmoke; font-weight: 100;padding: 10px;text-align: center;display: inline;">TAILOR
+        <span style="font-family: Sofia, sans-serif;font-size: 60px;color:red;">&</span>STORE</h1>
+    <ul style="display: inline;color:whitesmoke;">
+        <li id="list"><a style="text-decoration: none;color: white;" href="#">MADE-TO-MEASURE</a></li>&nbsp;&nbsp;
+        <li id="list"><a style="text-decoration: none;color: white;" href="#">ACCESSORIES</a></li>&nbsp;&nbsp;
+        <li id="list"><a style="text-decoration: none;color: white;" href="#cu">CONTACT US</a></li>
+
+    </ul>
+    <button class="bt1" style="float: right;margin: 20px 60px;"> <span class="fa fa-user"></span>&nbsp;&nbsp;LOGIN</button>
+</div>
+<!--
+header ends
+-->
+
+<!--
+carousel start
+-->
+
+<div style="height: 600px;margin-top: 100px;background-image: url('images/b1.jpg');background-position:20% 2%">
+    <div style="padding: 20px 0px 0px 700px">
+    <h5 class="heads" style="padding: 20px ">
+        PREMIER MADE-TO-MEASURE CLOTHING
+    </h5>
+    <h6 class="heads" style="font-size: 40px;font-family: 'Trebuchet MS'">Say Hello To Your Ultimate Dress Shirt...</h6><br><br>
+    <h6 class="heads" style="font-size: 16px">First-time customers save over 40% on our signature, best-selling, hand tailored
+        <br><br> Ultimate Dress Shirt. <br><br></h6> <h6 class="heads">Free shipping and perfect fit guarantee</h6>
+    <button class="bt">SHOP NOW</button>
+    </div>
+    </div>
+
+
+<!--
+carousel end
+-->
+<!--
+blog starts
+-->
+    <div style="width: auto;height: 400px;background-color:#25293a;">
+        <div class="text-center">
+            <h1 style="color:white;font-size: 50px;padding-top: 100px;font-weight: 100;">Perfect fit gaurantee</h1>
+        <h5 style="color: white;text-align: center;padding-top: 30px;font-weight:300;font-size: 19px;font-style: normal;
+        line-height: 30px">To wear clothes with a perfect fit is a confidence boost everyone should experience. <br>
+            If you are not satisfied with the fit of your garment we will adjust the fit and replace it for free.No returns needed.</h5>
+            <button class="bt1" style="padding: 15px 32px;margin: 20px">READ MORE</button>
+        </div>
+    </div>
+<!--
+blog ends
+-->
+<!--
+newsletter starts
+-->
+    <div class="text-center" style="background-color: white;height:800px;width:auto;">
+        <h4 style="padding-top: 80px;font-weight: 300">NEWSLETTER</h4>
+        <h2 style="padding-top:15px;font-size: 50px;font-weight:200">Inspiration & Offers</h2>
+        <input type="email" placeholder="Your email" style="width:650px;height: 40px;margin-top: 20px;padding-left: 15px">
+        <button  class="bt2" style="margin-top: 30px;padding: 10px 32px;background-color: #25293a;">SUBSCRIBE</button>
+
+        <div class="container">
+            <h3 style="font-weight: 300;border-bottom:1px solid grey;font-size: 40px;color: #555555;padding-bottom: 20px">
+                Quotes from satisfied customers</h3>
+          <p style="padding:30px;font-size: 15px;line-height: 24px;font-weight: 300;">  Have just received my first order from you, it arrived by courier this morning Have tried it on, and I am very pleased
+            <br>with
+            the fit and quality, a brilliant shirt. Will be ordering with you again very soon, thank you very much. <br> A very happy
+              customer and I will recommend you to friends and family.
+            <br><b>Wayne J</b>
+          </p>
+        </div>
+
+        <div>
+            <h3 style="font-weight: 300;border-bottom:1px solid grey;font-size: 40px;color: #555555;padding-bottom: 20px">
+                Our bestsellers</h3>
+        </div>
+
+    </div>
+<!--
+newsletter ends
+-->
+<!--
+products
+-->
+
+    <!--<div style="width: 800px;">
+        <div class="bord" style="width: 300px;">
+        <img  src="images/s1.jpg" height="400" width="300"/>
+           <p style="font-size: 12px;text-align: center"> light blue dobby weaved cotton shirt</p>
+            </div>
+-->
+    <div id="products" style="margin-left: 15px;" >
+
+        <div class="bord" style="display: inline-block;background-color: white;width: 317px;height: 530px;">
+            <img  style="display: inline;
+         margin: 0 5px;padding: 0px;" title="light blue dobby weaved cotton shirt" src="images/s3.jpg" alt="" width="310" height="420" />
+
+            <span style="margin-left: 110px" class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star unchecked"></span>
+            <div style="font-weight: 300;font-size: small;padding: 10px 0px 0px 60px ">light blue dobby weaved cotton shirt</div>
+            <div style="font-size: 30px;font-weight: 200;font-family: Serif;margin: 10px 0px 0px 120px;">$150</div>
+
+        </div>
+
+        <div class="bord" style="display: inline-block;background-color: white;width: 317px;height: 530px;">
+            <img  style="display: inline;
+         margin: 0 5px;padding: 0px;" title="light blue oxford shirt" src="images/s2.jpeg" alt="" width="310" height="420" />
+
+            <span style="margin-left: 110px" class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star unchecked"></span>
+            <div style="font-weight: 300;font-size: small;padding: 10px 0px 0px 100px ">light blue oxford shirt</div>
+            <div style="font-size: 30px;font-weight: 200;font-family: Serif;margin: 10px 0px 0px 140px;">$99</div>
+
+        </div>
+
+        <div class="bord" style="display: inline-block;background-color: white;width: 317px;height: 530px;">
+            <img  style="display: inline;
+         margin: 0 5px;padding: 0px;" title="white will shirt" src="images/s3.jpg" alt="" width="310" height="420" />
+
+            <span style="margin-left: 110px" class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star unchecked"></span>
+            <div style="font-weight: 300;font-size: small;padding: 10px 0px 0px 115px">white will shirt</div>
+            <div style="font-size: 30px;font-weight: 200;font-family: Serif;margin: 10px 0px 0px 125px;">$200</div>
+
+        </div>
+
+        <div class="bord" style="display: inline-block;background-color: white;width: 317px;height: 530px;">
+            <img  style="display: inline;
+         margin: 0 5px;padding: 0px;" title="blue cotton satin shirt" src="images/s2.jpeg" alt="" width="310" height="420" />
+
+            <span style="margin-left: 110px" class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star unchecked"></span>
+            <div style="font-weight: 300;font-size: small;padding: 10px 0px 0px 100px ">blue cotton satin shirt</div>
+            <div style="font-size: 30px;font-weight: 200;font-family: Serif;margin: 10px 0px 0px 125px;">$180</div>
+
+        </div>
+
+
+        <!--<img class="bord" style="display: inline;
+         margin: 0 5px;padding: 0px;" title="heartica_logo" src="images/s3.jpg" alt="" width="310" height="420" />
+        <img class="bord" style="display: inline;
+        margin: 0 5px;padding: 0px;" title="heartica_logo" src="images/s2.jpeg" alt="" width="310" height="420" />
+        <img class="bord" style="display: inline;
+         margin: 0 5px;padding: 0px;" title="heartica_logo" src="images/s2.jpeg" alt="" width="310" height="420" />-->
+
+    </div>
+    <div id="cu" style="background-color:#25293a;height: 400px;color: white;">
+        <div style="padding: 60px 0px 0px 100px">
+        <div class="row">
+            <div class="col-sm-3">
+                <div style="padding-top: 60px">
+               <span style="font-family: monospace;">     Follow us on social media</span>
+                <div style="padding:10px 0px 0px 40px">
+                    <span class="circle fa fa-facebook" style="padding: 7px ">
+                    </span>
+
+
+                    <span class=" circle fa fa-twitter" style="padding: 7px"></span>
+                    <span class=" circle fa fa-instagram" style="padding: 7px;"></span>
+
+
+                </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <h4  >Tailor Store</h4>
+                <ul style="padding: 0px;list-style-type: none">
+                    <li><a href="#" style="color:white">ABOUT US </a></li>
+                    <li><a href="#" style="color:white">SUSTAINABLE FASHION</a></li>
+                    <li><a href="#" style="color:white">JOBS</a></li>
+                    <li><a href="#" style="color:white">AFFILIATE PROGRAM</a></li>
+                    <li><a href="#" style="color:white">PRESS</a></li>
+
+                </ul>
+
+            </div>
+            <div class="col-sm-3">
+                <h4 >Customer Care</h4>
+                <ul style="padding: 0px;list-style-type: none">
+                    <li><a href="#" style="color:white">TERMS AND CONDITIONS</a></li>
+                    <li><a href="#" style="color:white">CONTACT US</a></li>
+                    <li><a href="#" style="color:white">FAQ</a></li>
+                    <li><a href="#" style="color:white">SHIPPING INFORMATION</a></li>
+                    <li><a href="#" style="color:white">PRIVACY POLICY</a></li>
+
+                </ul>
+
+            </div>
+            <div class="col-sm-3">
+                <h4 >Company Details</h4>
+                <ul style="padding: 0px;list-style-type: none;font-weight: 300;font-family: monospace">
+                    <li>Tailor Store Sweden AB</li>
+                    <li>Garnisonagatan 48</li>
+                    <li>254 66 Helsingborg</li>
+                    <li>Sweden</li>
+                    <li></li>
+                    <li>Org no. 556697-7061 <br>
+                        VAT no. SE556697706101
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        </div>
+
+
+
+<div style="padding: 60px 0px 0px 430px">
+    <p style="font-weight: 300;font-size: 12px;padding-left: 80px">Copyright © 2003-2018 Tailor Store Sweden AB. All rights reserved.</p>
+
+    <p style="font-weight: 300;font-size: 12px; margin: 0px; "> All works are property of their respective owners and may not be used else where without written permission.</p>
+</div>
+    </div>
+
+
+<!--
+        <img style="border: 1px solid;"  src="images/s2.jpeg" height="400" width="400"/>
+-->
+       <!-- <img src="images/s3.jpg" height="400" width="400"/>
+        <img src="images/s1.jpg" height="400" width="400"/>-->
+
+
+
+
+<!--
+products end
+-->
+</div> <!--main-->
+
+</body>
+</html>
+
+
